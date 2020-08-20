@@ -1,0 +1,31 @@
+{
+  "name": "ts-module-example",
+  "version": "0.0.1",
+  "homepage": "https://github.com/mildfuzz/ts-module-example",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mildfuzz/ts-module-example"
+  },
+  "keywords": [],
+  "targets": {
+    "app": {
+      "distDir": "./dist"
+    }
+  },
+  "author": "John Farrow",
+  "devDependencies": {
+    "prettier": "2.0.5",
+    "typescript": "^4.2.4"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^14.14.41",
+    "@types/react": "^17.0.3",
+    "tsdef": "0.0.14"
+  }
+}
